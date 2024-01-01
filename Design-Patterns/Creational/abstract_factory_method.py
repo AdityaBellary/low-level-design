@@ -35,7 +35,7 @@ class SedanCarPartsFactory(CarPartsFactory):
 
 class SUVCarPartsFactory(CarPartsFactory):
     def build(self):
-        print("SUV car parts Factory")
+        print("SUV car parts are built")
     
     def __str__(self) -> str:
         return "<SUV car Parts are built>"
